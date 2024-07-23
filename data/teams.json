@@ -3,6 +3,7 @@
     "id": 1,
     "name": "Galatasaray",
     "goals": 0,
+    "strength": 70.42,
     "players": [
       {
         "name": "Fernando Muslera",
@@ -120,6 +121,7 @@
     "id": 2,
     "name": "Fenerbahçe",
     "goals": 0,
+    "strength": 67.66,
     "players": [
       {
         "name": "Altay Bayındır",
@@ -237,6 +239,7 @@
     "id": 3,
     "name": "Beşiktaş",
     "goals": 0,
+    "strength": 68.64,
     "players": [
       {
         "name": "Ersin Destanoğlu",
@@ -354,6 +357,7 @@
     "id": 4,
     "name": "Trabzonspor",
     "goals": 0,
+    "strength": 66.78,
     "players": [
       {
         "name": "Uğurcan Çakır",

@@ -1,10 +1,8 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-const fs = require('fs');
-const path = require('path');
-const Team = require('./models/Team'); // Team modelini import edin
 require('dotenv').config();
+const initializeDatabase = require('./initializeDatabase'); // initializeDatabase fonksiyonunu import edin
 
 const app = express();
 const PORT = process.env.PORT || 5001;
@@ -15,30 +13,14 @@ app.use(express.json());
 mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(async () => {
     console.log('MongoDB connected');
-
-    // Veritabanında veri olup olmadığını kontrol et
-    try {
-      const count = await Team.countDocuments({});
-      if (count === 0) {
-        // JSON dosyasını oku ve MongoDB'ye ekle
-        const dataPath = path.join(__dirname, 'data', 'teams.json');
-        fs.readFile(dataPath, 'utf8', async (err, data) => {
-          if (err) {
-            console.log(err);
-          } else {
-            const teams = JSON.parse(data);
-            await Team.insertMany(teams);
-            console.log('Initial data inserted');
-          }
-        });
-      }
-    } catch (err) {
-      console.log(err);
-    }
+    await initializeDatabase(); // Veritabanını initialize edin
   })
   .catch(err => console.log(err));
 
 const teamsRouter = require('./routes/teams');
-app.use('/teams', teamsRouter);
+const playersRouter = require('./routes/players'); // playersRouter'ı import edin
+
+app.use('/api/teams', teamsRouter);
+app.use('/api/players', playersRouter); // players endpoint'i ekleyin
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

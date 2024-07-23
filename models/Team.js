@@ -1,20 +1,10 @@
 const mongoose = require('mongoose');
 
-const PlayerSchema = new mongoose.Schema({
-  name: String,
-  position: String,
-  goalkeeping: Number,
-  defense: Number,
-  midfield: Number,
-  attack: Number,
-  strength: Number,
-  goals: Number
+const teamSchema = new mongoose.Schema({
+  name: { type: String, required: true },
+  strength: { type: Number, default: 0 },
+  goals: { type: Number, default: 0 },
+  players: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Player' }] // Player referanslarını tutan bir dizi
 });
 
-const TeamSchema = new mongoose.Schema({
-  name: String,
-  goals: Number,
-  players: [PlayerSchema]
-});
-
-module.exports = mongoose.model('Team', TeamSchema);
+module.exports = mongoose.model('Team', teamSchema);
