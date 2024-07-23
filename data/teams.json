@@ -1,0 +1,460 @@
+[
+  {
+    "id": 1,
+    "name": "Galatasaray",
+    "goals": 0,
+    "players": [
+      {
+        "name": "Fernando Muslera",
+        "position": "GK",
+        "goalkeeping": 85,
+        "defense": 70,
+        "midfield": 50,
+        "attack": 30,
+        "strength": 83.25,
+        "goals": 0
+      },
+      {
+        "name": "Marcao",
+        "position": "DEF",
+        "goalkeeping": 30,
+        "defense": 80,
+        "midfield": 60,
+        "attack": 40,
+        "strength": 66,
+        "goals": 0
+      },
+      {
+        "name": "Victor Nelsson",
+        "position": "DEF",
+        "goalkeeping": 20,
+        "defense": 78,
+        "midfield": 65,
+        "attack": 35,
+        "strength": 60.9,
+        "goals": 0
+      },
+      {
+        "name": "DeAndre Yedlin",
+        "position": "DEF",
+        "goalkeeping": 15,
+        "defense": 75,
+        "midfield": 60,
+        "attack": 40,
+        "strength": 61.5,
+        "goals": 0
+      },
+      {
+        "name": "Patrick van Aanholt",
+        "position": "DEF",
+        "goalkeeping": 10,
+        "defense": 77,
+        "midfield": 65,
+        "attack": 50,
+        "strength": 64.1,
+        "goals": 0
+      },
+      {
+        "name": "Taylan Antalyalı",
+        "position": "MID",
+        "goalkeeping": 5,
+        "defense": 70,
+        "midfield": 80,
+        "attack": 60,
+        "strength": 71.5,
+        "goals": 0
+      },
+      {
+        "name": "Berkan Kutlu",
+        "position": "MID",
+        "goalkeeping": 5,
+        "defense": 68,
+        "midfield": 75,
+        "attack": 55,
+        "strength": 67.75,
+        "goals": 0
+      },
+      {
+        "name": "Sofiane Feghouli",
+        "position": "MID",
+        "goalkeeping": 5,
+        "defense": 60,
+        "midfield": 78,
+        "attack": 80,
+        "strength": 72.7,
+        "goals": 0
+      },
+      {
+        "name": "Kerem Aktürkoğlu",
+        "position": "MID",
+        "goalkeeping": 5,
+        "defense": 50,
+        "midfield": 80,
+        "attack": 85,
+        "strength": 72.25,
+        "goals": 0
+      },
+      {
+        "name": "Mostafa Mohamed",
+        "position": "FWD",
+        "goalkeeping": 5,
+        "defense": 40,
+        "midfield": 65,
+        "attack": 99,
+        "strength": 88.35,
+        "goals": 0
+      },
+      {
+        "name": "Ryan Babel",
+        "position": "FWD",
+        "goalkeeping": 5,
+        "defense": 40,
+        "midfield": 60,
+        "attack": 99,
+        "strength": 87.15,
+        "goals": 0
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Fenerbahçe",
+    "goals": 0,
+    "players": [
+      {
+        "name": "Altay Bayındır",
+        "position": "GK",
+        "goalkeeping": 80,
+        "defense": 65,
+        "midfield": 50,
+        "attack": 30,
+        "strength": 77.75,
+        "goals": 0
+      },
+      {
+        "name": "Attila Szalai",
+        "position": "DEF",
+        "goalkeeping": 30,
+        "defense": 80,
+        "midfield": 60,
+        "attack": 40,
+        "strength": 66,
+        "goals": 0
+      },
+      {
+        "name": "Kim Min-jae",
+        "position": "DEF",
+        "goalkeeping": 20,
+        "defense": 78,
+        "midfield": 65,
+        "attack": 35,
+        "strength": 60.9,
+        "goals": 0
+      },
+      {
+        "name": "Filip Novak",
+        "position": "DEF",
+        "goalkeeping": 15,
+        "defense": 75,
+        "midfield": 60,
+        "attack": 40,
+        "strength": 61.5,
+        "goals": 0
+      },
+      {
+        "name": "Nazım Sangaré",
+        "position": "DEF",
+        "goalkeeping": 10,
+        "defense": 77,
+        "midfield": 65,
+        "attack": 50,
+        "strength": 64.1,
+        "goals": 0
+      },
+      {
+        "name": "Jose Sosa",
+        "position": "MID",
+        "goalkeeping": 5,
+        "defense": 70,
+        "midfield": 80,
+        "attack": 60,
+        "strength": 71.5,
+        "goals": 0
+      },
+      {
+        "name": "Miguel Crespo",
+        "position": "MID",
+        "goalkeeping": 5,
+        "defense": 68,
+        "midfield": 65,
+        "attack": 55,
+        "strength": 61.75,
+        "goals": 0
+      },
+      {
+        "name": "Mesut Özil",
+        "position": "MID",
+        "goalkeeping": 5,
+        "defense": 60,
+        "midfield": 78,
+        "attack": 70,
+        "strength": 70.7,
+        "goals": 0
+      },
+      {
+        "name": "Irfan Can Kahveci",
+        "position": "MID",
+        "goalkeeping": 5,
+        "defense": 50,
+        "midfield": 80,
+        "attack": 75,
+        "strength": 71.25,
+        "goals": 0
+      },
+      {
+        "name": "Enner Valencia",
+        "position": "FWD",
+        "goalkeeping": 5,
+        "defense": 40,
+        "midfield": 65,
+        "attack": 85,
+        "strength": 75.75,
+        "goals": 0
+      },
+      {
+        "name": "Mergim Berisha",
+        "position": "FWD",
+        "goalkeeping": 5,
+        "defense": 40,
+        "midfield": 60,
+        "attack": 60,
+        "strength": 56.25,
+        "goals": 0
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Beşiktaş",
+    "goals": 0,
+    "players": [
+      {
+        "name": "Ersin Destanoğlu",
+        "position": "GK",
+        "goalkeeping": 78,
+        "defense": 65,
+        "midfield": 50,
+        "attack": 30,
+        "strength": 75.95,
+        "goals": 0
+      },
+      {
+        "name": "Domagoj Vida",
+        "position": "DEF",
+        "goalkeeping": 30,
+        "defense": 80,
+        "midfield": 60,
+        "attack": 40,
+        "strength": 66,
+        "goals": 0
+      },
+      {
+        "name": "Welinton",
+        "position": "DEF",
+        "goalkeeping": 20,
+        "defense": 78,
+        "midfield": 65,
+        "attack": 35,
+        "strength": 60.9,
+        "goals": 0
+      },
+      {
+        "name": "Ridvan Yilmaz",
+        "position": "DEF",
+        "goalkeeping": 15,
+        "defense": 75,
+        "midfield": 60,
+        "attack": 40,
+        "strength": 61.5,
+        "goals": 0
+      },
+      {
+        "name": "Valentin Rosier",
+        "position": "DEF",
+        "goalkeeping": 10,
+        "defense": 77,
+        "midfield": 65,
+        "attack": 50,
+        "strength": 64.1,
+        "goals": 0
+      },
+      {
+        "name": "Josef de Souza",
+        "position": "MID",
+        "goalkeeping": 5,
+        "defense": 70,
+        "midfield": 80,
+        "attack": 60,
+        "strength": 71.5,
+        "goals": 0
+      },
+      {
+        "name": "Miralem Pjanic",
+        "position": "MID",
+        "goalkeeping": 5,
+        "defense": 68,
+        "midfield": 75,
+        "attack": 55,
+        "strength": 67.75,
+        "goals": 0
+      },
+      {
+        "name": "Rachid Ghezzal",
+        "position": "MID",
+        "goalkeeping": 5,
+        "defense": 60,
+        "midfield": 78,
+        "attack": 70,
+        "strength": 70.7,
+        "goals": 0
+      },
+      {
+        "name": "Atiba Hutchinson",
+        "position": "MID",
+        "goalkeeping": 5,
+        "defense": 50,
+        "midfield": 80,
+        "attack": 75,
+        "strength": 71.25,
+        "goals": 0
+      },
+      {
+        "name": "Michy Batshuayi",
+        "position": "FWD",
+        "goalkeeping": 5,
+        "defense": 40,
+        "midfield": 80,
+        "attack": 75,
+        "strength": 72.25,
+        "goals": 0
+      },
+      {
+        "name": "Cyle Larin",
+        "position": "FWD",
+        "goalkeeping": 5,
+        "defense": 40,
+        "midfield": 60,
+        "attack": 80,
+        "strength": 70.75,
+        "goals": 0
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Trabzonspor",
+    "goals": 0,
+    "players": [
+      {
+        "name": "Uğurcan Çakır",
+        "position": "GK",
+        "goalkeeping": 80,
+        "defense": 65,
+        "midfield": 50,
+        "attack": 30,
+        "strength": 77.75,
+        "goals": 0
+      },
+      {
+        "name": "Edgar Ié",
+        "position": "DEF",
+        "goalkeeping": 30,
+        "defense": 70,
+        "midfield": 60,
+        "attack": 40,
+        "strength": 61,
+        "goals": 0
+      },
+      {
+        "name": "Vitor Hugo",
+        "position": "DEF",
+        "goalkeeping": 20,
+        "defense": 78,
+        "midfield": 65,
+        "attack": 35,
+        "strength": 60.9,
+        "goals": 0
+      },
+      {
+        "name": "Hüseyin Türkmen",
+        "position": "DEF",
+        "goalkeeping": 15,
+        "defense": 75,
+        "midfield": 60,
+        "attack": 40,
+        "strength": 61.5,
+        "goals": 0
+      },
+      {
+        "name": "Marlon",
+        "position": "DEF",
+        "goalkeeping": 10,
+        "defense": 77,
+        "midfield": 65,
+        "attack": 50,
+        "strength": 64.1,
+        "goals": 0
+      },
+      {
+        "name": "Abdulkadir Parmak",
+        "position": "MID",
+        "goalkeeping": 5,
+        "defense": 70,
+        "midfield": 80,
+        "attack": 60,
+        "strength": 71.5,
+        "goals": 0
+      },
+      {
+        "name": "Flavio",
+        "position": "MID",
+        "goalkeeping": 5,
+        "defense": 68,
+        "midfield": 75,
+        "attack": 55,
+        "strength": 67.75,
+        "goals": 0
+      },
+      {
+        "name": "Berat Özdemir",
+        "position": "MID",
+        "goalkeeping": 5,
+        "defense": 60,
+        "midfield": 78,
+        "attack": 60,
+        "strength": 67.5,
+        "goals": 0
+      },
+      {
+        "name": "Djaniny",
+        "position": "FWD",
+        "goalkeeping": 5,
+        "defense": 40,
+        "midfield": 65,
+        "attack": 70,
+        "strength": 66.75,
+        "goals": 0
+      },
+      {
+        "name": "Caleb Ekuban",
+        "position": "FWD",
+        "goalkeeping": 5,
+        "defense": 40,
+        "midfield": 60,
+        "attack": 70,
+        "strength": 66.75,
+        "goals": 0
+      }
+    ]
+  }
+]
